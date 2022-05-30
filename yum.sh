@@ -3,7 +3,7 @@
 mkdir /etc/yum.repos.d/old
 mv /etc/yum.repos.d/* /etc/yum.repos.d/old/
 #获取yum源
-curl -o /etc/yum.repos.d/Rhel-Base.repo http://file.kangle.odata.cc/repo/Centos-8.repo
+curl -o /etc/yum.repos.d/Rhel-Base.repo https://ghproxy.com/https://raw.githubusercontent.com/jqjhl/keyikeyi/main/CentOS-8.repo
 #清除缓存
 yum clean all
 #更新仓库信息
