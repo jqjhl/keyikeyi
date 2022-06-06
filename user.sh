@@ -1,9 +1,9 @@
 #!/bin/bash
 #创建组
-groupadd -g 20000 mytest
+groupadd -g 40000 adminuser
 #创建用户
-useradd -G 20000 abc 
-useradd -s /sbin/nologin zzz
+useradd -G 40000 natasha 
+useradd -s /sbin/nologin sarah
 #创建密码
-echo "centos" | passwd --stdin abc
-echo "centos" | passwd --stdin zzz
+echo "redhat" | passwd --stdin sarah
+echo "redhat" | passwd --stdin natasha 
